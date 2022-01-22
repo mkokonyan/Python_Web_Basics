@@ -52,12 +52,8 @@ WSGI_APPLICATION = 'online_library.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'online_library',
-        'USER': 'postgres',
-        'PASSWORD': 'prospan123',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
     }
 }
 
